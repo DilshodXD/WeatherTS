@@ -40,4 +40,5 @@ export interface Weather {
   id: number;
   name: string;
   cod: number;
+  message?: string;
 }
